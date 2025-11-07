@@ -1,0 +1,52 @@
+- !<AssetImportMetadata/e08cac92-fefd-4ffe-9192-e9c37a4b1a59>
+  ImportedAssetIds:
+    JavaScriptAsset: !<reference> 20200277-e5e7-44f7-8a1d-50c883b59164
+  ImporterName: JavaScriptAssetImporter
+  PrimaryAsset: !<reference> 20200277-e5e7-44f7-8a1d-50c883b59164
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    JavaScriptAsset: !<own> c386de81-c6de-4947-ace2-197512cd8deb
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<ScriptAssetData/c386de81-c6de-4947-ace2-197512cd8deb>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: f5d1727d-7de2-4456-888d-d91fbfd5fedc
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    gameStateMachine: false
+    maxLives: false
+    maxSpeed: false
+    player: false
+    speedIncreasePerSecond: false
+    startSpeed: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    - gameStateMachine: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+      startSpeed: !<float> 2.000000
+      speedIncreasePerSecond: 0.050000
+      maxSpeed: !<float> 4.000000
+      player: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+      maxLives: 3
+  ScriptTypes:
+    -
+      {}

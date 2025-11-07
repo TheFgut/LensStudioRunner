@@ -1,0 +1,44 @@
+- !<AssetImportMetadata/5476ad28-be29-44c2-ab5b-170045dc561d>
+  ImportedAssetIds:
+    JavaScriptAsset: !<reference> 1d45ab99-ece5-405a-8d76-242a74caab14
+  ImporterName: JavaScriptAssetImporter
+  PrimaryAsset: !<reference> 1d45ab99-ece5-405a-8d76-242a74caab14
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    JavaScriptAsset: !<own> dc4fbc5a-bfc2-4ea4-910b-b1e29409b38c
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<ScriptAssetData/dc4fbc5a-bfc2-4ea4-910b-b1e29409b38c>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: b841a738-b9f4-4131-83ce-80fdb4338cec
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    gameStateMachine: false
+    mainMenuBut: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    - mainMenuBut: !<reference.InteractionComponent> 00000000-0000-0000-0000-000000000000
+      gameStateMachine: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+  ScriptTypes:
+    -
+      {}

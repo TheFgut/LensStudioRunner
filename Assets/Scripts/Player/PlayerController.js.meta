@@ -1,0 +1,52 @@
+- !<AssetImportMetadata/40b2d2b9-986d-4e65-ba18-38418977ef20>
+  ImportedAssetIds:
+    JavaScriptAsset: !<reference> d12b4a67-4aea-4819-9654-92cac59c85d0
+  ImporterName: JavaScriptAssetImporter
+  PrimaryAsset: !<reference> d12b4a67-4aea-4819-9654-92cac59c85d0
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    JavaScriptAsset: !<own> 5fdbeaef-675b-409a-8050-688c055b1769
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<ScriptAssetData/5fdbeaef-675b-409a-8050-688c055b1769>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: 38629e86-c48c-4735-8982-40b3f030364c
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    animator: false
+    character: false
+    gameManager: false
+    jumpHeight: false
+    jumpTime: false
+    road: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    - character: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      jumpHeight: 0.800000
+      jumpTime: 0.400000
+      animator: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+      gameManager: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+      road: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+  ScriptTypes:
+    -
+      {}

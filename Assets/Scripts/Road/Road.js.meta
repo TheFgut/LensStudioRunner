@@ -1,0 +1,54 @@
+- !<AssetImportMetadata/d37a1e98-cce6-4943-b794-eb7ad0dc8ea6>
+  ImportedAssetIds:
+    JavaScriptAsset: !<reference> b18760ed-4bf2-4ce0-a606-36714a4eece4
+  ImporterName: JavaScriptAssetImporter
+  PrimaryAsset: !<reference> b18760ed-4bf2-4ce0-a606-36714a4eece4
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    JavaScriptAsset: !<own> 52ae2b7a-5f27-4f8c-8718-52e34929fc11
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<ScriptAssetData/52ae2b7a-5f27-4f8c-8718-52e34929fc11>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: 9ff60b04-c7f5-4e04-bab5-0a331f91d9ac
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    gameManager: false
+    lineWidth: false
+    roadHideTreshold: false
+    roadInitialZOffset: false
+    roadParent: false
+    roadPartPrefab: false
+    segmentCount: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    - lineWidth: !<float> 50.000000
+      roadPartPrefab: !<reference.ObjectPrefab> 00000000-0000-0000-0000-000000000000
+      segmentCount: 5
+      gameManager: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+      roadParent: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      roadInitialZOffset: !<float> 100.000000
+      roadHideTreshold: !<float> 100.000000
+  ScriptTypes:
+    -
+      {}
