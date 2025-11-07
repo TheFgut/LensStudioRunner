@@ -1,0 +1,66 @@
+CollapsedEntities:
+  type: stringset
+  value:
+    size: 60
+    values:
+      - Animation State Manager.lsc
+      - Animations
+      - Animations/Fast Run.fbx
+      - Animations/Fast Run.fbx/Animations
+      - Animations/Fast Run.fbx/Animations/Layer0
+      - Animations/Fast Run.fbx/Fast Run
+      - Animations/Flying Back Death.fbx
+      - Animations/Flying Back Death.fbx/Animations
+      - Animations/Flying Back Death.fbx/Animations/Layer0
+      - Animations/Flying Back Death.fbx/Flying Back Death
+      - Animations/Idle.fbx
+      - Animations/Idle.fbx/Animations
+      - Animations/Idle.fbx/Animations/Layer0
+      - Animations/Idle.fbx/Idle
+      - Animations/Jumping.fbx/Animations
+      - Animations/Jumping.fbx/Animations/Layer0
+      - Animations/Jumping.fbx/Jumping
+      - Images
+      - Images/Base.png
+      - Images/Default.png
+      - Images/Empty.png
+      - Images/Image.png
+      - Images/MaterialParams.png
+      - Images/Normal.png
+      - Images/rounded square.png
+      - Images/white-cloud-blue-sky-sea.jpg
+      - Materials/Background.mat
+      - Materials/Color Correction.mat
+      - Materials/Gold.mat
+      - Materials/Ground.mat
+      - Materials/Obstacle.mat
+      - Materials/SpriteBut.mat
+      - Materials/color_correction.ss_graph
+      - Materials/unlit.ss_graph
+      - Meshes
+      - Meshes/Box.mesh
+      - Meshes/Plane.mesh
+      - Prefabs
+      - Prefabs/Gold.prefab
+      - Prefabs/Obstacle.prefab
+      - Prefabs/RoadPart.prefab
+      - Scripts/EventBus.js
+      - Scripts/GameEntryPoint.js
+      - Scripts/GameManager.js
+      - Scripts/GameStateMachine.js
+      - Scripts/Player
+      - Scripts/Player/Bitmoji 3D.lsc
+      - Scripts/Player/PlayerAnimator.js
+      - Scripts/Player/PlayerController.js
+      - Scripts/Road
+      - Scripts/Road/GoldController.js
+      - Scripts/Road/ObstacleController.js
+      - Scripts/Road/ObstacleSpawner.js
+      - Scripts/Road/Road.js
+      - Scripts/Road/RoadPart.js
+      - Scripts/UI
+      - Scripts/UI/ScreenManager.js
+      - Scripts/UI/Screens/LooseScreen.js
+      - Scripts/UI/Screens/MainMenuScreen.js
+      - Scripts/UI/Screens/RunScreen.js
+  options: 4

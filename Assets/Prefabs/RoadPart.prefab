@@ -1,0 +1,141 @@
+- !<ObjectPrefab/b9e5cf83-0f65-4405-b27f-7a75dda8a9a8>
+  PackagePath: ""
+  objects:
+    - !<own> e66418f8-6614-4ab6-8ba4-13b9b97934d0
+  LazyLoading: false
+  RetainAssets: true
+- !<ScriptComponent/170a552e-f734-4a4e-ae8f-d5a505b0fc0f>
+  PrefabRemaps:
+    []
+  Name: ObstacleSpawner
+  Enabled: true
+  ScriptAsset: !<reference> 500aef16-2eb9-4150-8c10-b5f7ea2fc52a
+  ScriptInputsDefault:
+    obstaclePrefab: true
+    coinPrefab: true
+    obstaclesParent: true
+    distBetweenGens: true
+    coinGenChance: true
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      obstaclePrefab: !<reference.ObjectPrefab> 00000000-0000-0000-0000-000000000000
+      coinPrefab: !<reference.ObjectPrefab> 00000000-0000-0000-0000-000000000000
+      obstaclesParent: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      distBetweenGens: !<float> 10.000000
+      coinGenChance: 0.250000
+  ScriptTypes:
+    "":
+      {}
+- !<ScriptComponent/3ef5a7d5-686f-476c-9ed0-50839df33fcb>
+  PrefabRemaps:
+    []
+  Name: ObstacleSpawner
+  Enabled: true
+  ScriptAsset: !<reference> 500aef16-2eb9-4150-8c10-b5f7ea2fc52a
+  ScriptInputsDefault:
+    distBetweenGens: true
+    coinGenChance: true
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      obstaclePrefab: !<reference.ObjectPrefab> 0c6e04a6-1514-49fe-909a-a30d7093a8ce
+      coinPrefab: !<reference.ObjectPrefab> b1897e0c-49a5-4c36-8ee3-51f5633e28e7
+      obstaclesParent: !<reference.SceneObject> 53739e94-2966-4450-9c47-530f42bf5c62
+      distBetweenGens: !<float> 10.000000
+      coinGenChance: 0.250000
+  ScriptTypes:
+    "":
+      {}
+- !<SceneObject/53739e94-2966-4450-9c47-530f42bf5c62>
+  PrefabRemaps:
+    []
+  Name: ObstacleSpawner
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 10.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 3ef5a7d5-686f-476c-9ed0-50839df33fcb
+- !<SceneObject/5d80e92d-ff66-4d7c-b80b-a85faa4e7092>
+  PrefabRemaps:
+    []
+  Name: Box
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: -125.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 200.000000, y: 10.000000, z: 250.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> ac1a96cf-d912-4da2-b7e1-27293316c228
+    - !<own> 170a552e-f734-4a4e-ae8f-d5a505b0fc0f
+- !<RenderMeshVisual/ac1a96cf-d912-4da2-b7e1-27293316c228>
+  PrefabRemaps:
+    []
+  Name: Render Mesh Visual
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 922c7775-9028-43fc-a0c2-e7866902c041
+  Mesh: !<reference> 6aa4a522-6050-4cce-b296-50914e6936c7
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<ScriptComponent/cb6ce779-8529-4ec8-b469-8372e50dd651>
+  PrefabRemaps:
+    []
+  Name: RoadPart
+  Enabled: true
+  ScriptAsset: !<reference> 6208cd69-0980-4c74-9886-90346522ded6
+  ScriptInputsDefault:
+    {}
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      len: !<float> 250.000000
+      obstaclesSpawner: !<reference.ScriptComponent> 3ef5a7d5-686f-476c-9ed0-50839df33fcb
+  ScriptTypes:
+    "":
+      {}
+- !<SceneObject/e66418f8-6614-4ab6-8ba4-13b9b97934d0>
+  PrefabRemaps:
+    - 170a552e-f734-4a4e-ae8f-d5a505b0fc0f: a8442532-c84b-4f77-b12e-4a9adb3f1ea9
+    - 3ef5a7d5-686f-476c-9ed0-50839df33fcb: aaf90add-430b-44d7-9029-f7753b95fc8a
+    - 53739e94-2966-4450-9c47-530f42bf5c62: 142f86d0-3535-43e3-9dd4-8c2dbdae40bc
+    - 5d80e92d-ff66-4d7c-b80b-a85faa4e7092: 5d80e92d-ff66-4d7c-47f4-57a055b18f6d
+    - ac1a96cf-d912-4da2-b7e1-27293316c228: ac1a96cf-d912-4da2-481e-d8d6cce93dd7
+    - cb6ce779-8529-4ec8-b469-8372e50dd651: cb6ce779-8529-4ec8-4b96-7c8d1af229ae
+    - e66418f8-6614-4ab6-8ba4-13b9b97934d0: e66418f8-6614-4ab6-745b-ec464686cb2f
+  Name: RoadPart
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> 53739e94-2966-4450-9c47-530f42bf5c62
+    - !<own> 5d80e92d-ff66-4d7c-b80b-a85faa4e7092
+  Components:
+    - !<own> cb6ce779-8529-4ec8-b469-8372e50dd651

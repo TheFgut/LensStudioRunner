@@ -1,0 +1,1 @@
+global.EventBus.on("Init", init);
