@@ -1,7 +1,7 @@
 CollapsedEntities:
   type: stringset
   value:
-    size: 60
+    size: 57
     values:
       - Animation State Manager.lsc
       - Animations
@@ -29,6 +29,7 @@ CollapsedEntities:
       - Images/Normal.png
       - Images/rounded square.png
       - Images/white-cloud-blue-sky-sea.jpg
+      - Materials
       - Materials/Background.mat
       - Materials/Color Correction.mat
       - Materials/Gold.mat
@@ -40,7 +41,6 @@ CollapsedEntities:
       - Meshes
       - Meshes/Box.mesh
       - Meshes/Plane.mesh
-      - Prefabs
       - Prefabs/Gold.prefab
       - Prefabs/Obstacle.prefab
       - Prefabs/RoadPart.prefab
@@ -48,17 +48,14 @@ CollapsedEntities:
       - Scripts/GameEntryPoint.js
       - Scripts/GameManager.js
       - Scripts/GameStateMachine.js
-      - Scripts/Player
       - Scripts/Player/Bitmoji 3D.lsc
       - Scripts/Player/PlayerAnimator.js
       - Scripts/Player/PlayerController.js
-      - Scripts/Road
       - Scripts/Road/GoldController.js
       - Scripts/Road/ObstacleController.js
       - Scripts/Road/ObstacleSpawner.js
       - Scripts/Road/Road.js
       - Scripts/Road/RoadPart.js
-      - Scripts/UI
       - Scripts/UI/ScreenManager.js
       - Scripts/UI/Screens/LooseScreen.js
       - Scripts/UI/Screens/MainMenuScreen.js
